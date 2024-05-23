@@ -17,6 +17,7 @@ const Question_2 = () => {
       {asending.map((item) => (
         <li>{item}</li>
       ))}
+      
     </div>
   );
 };

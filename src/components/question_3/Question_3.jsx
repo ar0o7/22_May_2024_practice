@@ -11,15 +11,16 @@ const Question_3 = () => {
   const display = arrry.sort((a, b) => a.id - b.id);
 
   return (
-    <div className="mt-5">
+    <div>
       <h1>Question Three</h1>
       <h2>Solution</h2>
       <p>This array is displayed in ascending order</p>
       {display.map((item) => (
         <li key={item.id}>
-          {item.name} is at {item.id}
+          {item.name} is at {item.id} position
         </li>
       ))}
+
     </div>
   );
 };
